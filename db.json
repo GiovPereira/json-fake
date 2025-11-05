@@ -41,34 +41,6 @@
       "telefone": "1",
       "cidade": "JF",
       "estado": "MG"
-    },
-    {
-      "id": 4,
-      "nome": "cliente04",
-      "cpf": "1",
-      "cep": "1",
-      "rua": "111111111",
-      "numero": "1",
-      "bairro": "1",
-      "complemento": "1",
-      "dataNascimento": "1",
-      "telefone": "1",
-      "cidade": "JF",
-      "estado": "MG"
-    },
-    {
-      "id": 5,
-      "nome": "cliente05",
-      "cpf": "1",
-      "cep": "1",
-      "rua": "111111111",
-      "numero": "1",
-      "bairro": "1",
-      "complemento": "1",
-      "dataNascimento": "1",
-      "telefone": "1",
-      "cidade": "JF",
-      "estado": "MG"
     }
   ],
   "obras": [
@@ -101,53 +73,128 @@
       "genero": "B",
       "idioma": "B",
       "secao": 3
+    }
+  ],
+  "exemplares": [
+    {
+      "id": 1,
+      "título": "Exemplar 1",
+      "isbn": 1,
+      "edicao": 1,
+      "editora": "A",
+      "genero": "A",
+      "idioma": "A",
+      "secao": 1
     },
     {
-      "id": 4,
-      "título": "Obra 4",
-      "isbn": 4,
-      "edicao": 4,
-      "editora": "D",
-      "genero": "C",
-      "idioma": "C",
-      "secao": 4
+      "id": 2,
+      "título": "Exemplar 2",
+      "isbn": 2,
+      "edicao": 2,
+      "editora": "B",
+      "genero": "B",
+      "idioma": "B",
+      "secao": 2
+    },
+    {
+      "id": 3,
+      "título": "Exemplar 3",
+      "isbn": 3,
+      "edicao": 3,
+      "editora": "C",
+      "genero": "B",
+      "idioma": "B",
+      "secao": 3
     }
   ],
   "multas": [
     {
       "id": 1,
-      "nome": "Professor 1",
-      "cpf": "111111111",
-      "email": "professor1@email.com",
-      "celular": "1111-1111"
+      "nome": "Cliente 01",
+      "status": "Agendado"
     },
     {
       "id": 2,
-      "nome": "Professor 2",
-      "cpf": "111111111",
-      "email": "professor2@email.com",
-      "celular": "2222-2222"
+      "nome": "Cliente 2",
+      "status": "Entregue"
     },
     {
       "id": 3,
-      "nome": "Professor 3",
-      "cpf": "111111111",
-      "email": "professor3@email.com",
-      "celular": "3333-3333"
+      "nome": "Cliente 3",
+      "status": "Pendente"
+    }
+  ],
+  "editoras": [
+    {
+      "id": 1,
+      "nome": "Editora 01",
+      "cnpj": "111111111"
     },
     {
-      "id": 4,
-      "nome": "Professor 4",
-      "cpf": "111111111",
-      "email": "professor4@email.com",
-      "celular": "4444-4444"
+      "id": 2,
+      "nome": "Editora 2",
+      "cnpj": "111111111"
     },
     {
-      "id": 5,
-      "nome": "Professor 5",
-      "cpf": "111111111",
-      "email": "professor5@email.com",
-      "celular": "5555-5555"
+      "id": 3,
+      "nome": "Editora 3",
+      "cnpj": "111111111"
+    }
+  ],
+  "idiomas": [
+    {
+      "id": 1,
+      "nome": "Idioma 01"
+    },
+    {
+      "id": 2,
+      "nome": "Idioma 2"
+    },
+    {
+      "id": 3,
+      "nome": "Idioma 3"
+    }
+  ],
+  "secoes": [
+    {
+      "id": 1,
+      "nome": "Seção 1"
+    },
+    {
+      "id": 2,
+      "nome": "Seção 2"
+    },
+    {
+      "id": 3,
+      "nome": "Seção 3"
+    }
+  ],
+  "autores": [
+    {
+      "id": 1,
+      "nome": "Autor 1"
+    },
+    {
+      "id": 2,
+      "nome": "Autor 2"
+    },
+    {
+      "id": 3,
+      "nome": "Autor 3"
+    }
+  ],
+  "generos": [
+    {
+      "id": 1,
+      "nome": "Aventura"
+    },
+    {
+      "id": 2,
+      "nome": "Terror"
+    },
+    {
+      "id": 3,
+      "nome": "Romance"
     }
   ]
 }
